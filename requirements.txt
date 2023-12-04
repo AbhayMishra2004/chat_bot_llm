@@ -4,3 +4,4 @@ numpy
 scipy
 llamaapi
 langchain_experimental
+pypdf
