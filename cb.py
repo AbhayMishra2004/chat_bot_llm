@@ -168,11 +168,11 @@ length_penalty = st.sidebar.slider(
 #################### FILENAME ########################
 filename = None
 
-with st.sidebar:
-    uploaded_file = st.file_uploader("Choose a file")
+# with st.sidebar:
+#     uploaded_file = st.file_uploader("Choose a file")
 
-    if uploaded_file is not None:
-        filename = uploaded_file.name
+#     if uploaded_file is not None:
+#         filename = uploaded_file.name
 
 ############### CHUNK SIZE SET ################
 
