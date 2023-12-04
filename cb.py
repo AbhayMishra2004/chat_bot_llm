@@ -121,9 +121,14 @@ def chat_bot_response(user_input, api_key, chunk_size, temperature, length_penal
 
 ################### Initializevariables ###########################
 
-st.set_page_config(page_title="Abhay GPT", page_icon="🤖")
+st.set_page_config(page_title="VK18 GPT", page_icon="🤖")
 
 st.title('Abhay Chatbot')
+
+# Display the beta testing message
+st.markdown("This chatbot is currently in beta testing and is still under development.")
+st.markdown("Enter the Llama API key , to run the chatbot.")
+st.markdown("You can get your free API key from : https://www.llama-api.com/")
 
 ################### DOCUMENT  ###########################
 
