@@ -125,8 +125,6 @@ st.set_page_config(page_title="Abhay GPT", page_icon="🤖")
 
 st.title('Abhay Chatbot')
 
-st.subheader('learn the text and will give answer (FAISS) ')
-
 ################### DOCUMENT  ###########################
 
 # Initialize session state if needed
