@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import numpy as np
+import langchain
 from langchain.text_splitter import CharacterTextSplitter
 from scipy import spatial
 from langchain.document_loaders import PyPDFLoader
